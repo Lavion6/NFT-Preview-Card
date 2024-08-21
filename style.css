@@ -1,0 +1,67 @@
+body {
+    max-width: 350px;
+    background-color: #0d192c;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.card {
+    background-color: #15263f;
+    padding: 24px 24px 32px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.equilibrium {
+    width: 302px;
+    border-radius: 8px;
+     border-bottom: 1px solid #1c2b42;
+}
+
+h3 {
+   font-weight: 600;
+   color: #fff; 
+   font-size: 22px;
+   letter-spacing: 1px;
+   margin: 24px 0 16px;
+}
+
+p {
+    color: #8bacd9;
+    margin: 16px 0 24px;
+    font-weight: 300;
+    line-height: 1.44;
+    font-size: 18px;
+}
+
+.eth {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.value-eth {
+    margin: 0 0 0 6.5px;
+    color: #00fff8;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.days {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.clock-image {
+    padding: 3.3px 3.3px 6px 6px;
+}
+
+.days-left {
+    margin: 0 0 0 7.7px;
+    font-size: 16px;
+    color: #8bacd9;
+}
